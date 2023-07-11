@@ -32,7 +32,7 @@ namespace Fix.Entities
 
         public override string ToString()
         {
-            return Product.Name
+            return Product.Name              // aqui podemos chamar o Name da classe Product
                 + ", $"
                 + Price.ToString("F2", CultureInfo.InvariantCulture) 
                 + ", Quantity: "
